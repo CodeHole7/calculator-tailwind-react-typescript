@@ -74,7 +74,7 @@ export const Calculator = () => {
                 <CalculatorKey color="darkGrey" onPress={() => clearDisplay()} label='C' />
                 <CalculatorKey color="darkGrey" onPress={() => toggleSign()} label='+/-' />
                 <CalculatorKey color="darkGrey" onPress={() => inputPercent()} label='%' />
-                <CalculatorKey color="darkGrey" onPress={() => performOperation('/')} label='/' />
+                <CalculatorKey color="orange" onPress={() => performOperation('/')} label='/' />
 
                 <CalculatorKey color="grey" onPress={() => inputDigit(7)} label='7' />
                 <CalculatorKey color="grey" onPress={() => inputDigit(8)} label='8' />
